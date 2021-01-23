@@ -1,0 +1,11 @@
+version: "3.0"
+
+services:
+  grafana:
+    image: grafana/grafana
+    container_name: grafana
+    ports:
+      - "3000:3000"
+    user: "104"
+    restart: always
+
